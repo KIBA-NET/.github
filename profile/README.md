@@ -80,5 +80,5 @@ activate_channels = "0101"
 
 [rerunner]
 sub_topic = ["sensors"]
-keypaths = ["sensors/rh", "sensors/temp", "sensors/voc", "sensors/pres"]
+keypaths = ["sensors/rh", "sensors/temp", "sensors/voc_0", "sensors/voc_1","sensors/pres_0", "sensors/pres_1"]
 ```
