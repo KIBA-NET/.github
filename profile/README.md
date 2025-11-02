@@ -58,7 +58,7 @@ sudo apt-get install -y mesa-vulkan-drivers
 # If Ubuntu 24
 sudo apt install libxkbcommon-x11-0
 
-sudo pip3 install rerun-sdk=0.25.1 --break-system-packages
+sudo pip3 install rerun-sdk==0.25.1 --break-system-packages
 
 # Build and install plugin
 git clone https://github.com/MADS-NET/rerunner_plugin/tree/main
